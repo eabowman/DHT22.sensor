@@ -3,12 +3,13 @@ import time
 import Adafruit_DHT
 
 DHT_SENSOR = Adafruit_DHT.DHT22
-DHT_PIN = 2
+DHT_PIN = 2 # Change DPIO pin based on where you sensor was attached
 
 while True:
     try:
-        f = open('/home/pi/Documents/pi/humidity.csv', 'a+')
-        if os.stat('/home/pi/Documents/pi/humidity.csv').st_size == 0:
+        # Change the file paths below to your csv file
+        f = open('/home/pi/humidity.csv', 'a+')
+        if os.stat('/home/pi/humidity.csv').st_size == 0:
             f.write('Date,Time,Temperature,Humidity\r\n')
     except FileNotFoundError:
         print("File not found")
