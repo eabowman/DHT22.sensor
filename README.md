@@ -26,6 +26,7 @@ For this, you will need to know a) the GPIO pin your sensor is attached to, b) t
 
 # Set up 'humidity_logger.py' script to run automatically
 1. Create a systemd service file: Create a file names 'humidity_logger.service' in the '/etc/systemd/system/' directory. You will likely need to use 'sudo' to have the necessary permissions. In this file, you should define the details of your service, including the name, description, and the command that runs the script. See the 'humidity-logger.service' file. 
+   Be sure that the file path to the 'humidity_logger.py' file is correct.
 
 2. Enable the service: Once the service file is created, enable it by running the following command in a terminal. This will make the service start automatically at boot time.
 
