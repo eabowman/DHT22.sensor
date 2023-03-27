@@ -36,4 +36,10 @@ For this, you will need to know a) the GPIO pin your sensor is attached to, b) t
 
     sudo systemctl start humidity_logger.service
 
-  This will start you 'humidity_logger.py' script and begin loggin data to the CSV file. 
+  This will start you 'humidity_logger.py' script and begin loggin data to the CSV file.
+
+To check the status of the service:
+    sudo systemctl status humdity_logger.service
+To stop the 'humidity_logger' service use
+
+    sudo systemctl stop humidity_logger.serice
