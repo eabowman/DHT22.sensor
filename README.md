@@ -1,7 +1,7 @@
 # DHT22.sensor
 This is the script to run a DHT22 temperature and humidity sensor with a Raspberry Pi. This includes uploading the data into a csv file and automatically running the script as soon as the RaspberryPi boots up which will allow you to change power sources without having to restart the program.
 
-Here, I am assuming that you have already attached the DHT22 to a Raspberry Pi sensor. See this [link] (https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/) for a good tutorial on setting up the sensor. Also, the initial setup is from this tutorial, and the 'humidity_logger.py' script is a modified version of the script created by Emmet.
+Here, I am assuming that you have already attached the DHT22 to a Raspberry Pi sensor. See this [link](https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/) for a good tutorial on setting up the sensor. Also, the initial setup is from this tutorial, and the 'humidity_logger.py' script is a modified version of the script created by Emmet.
 
 # Install programs
 1. Ensure that the latest updates have been installed on Raspberry Pi.
