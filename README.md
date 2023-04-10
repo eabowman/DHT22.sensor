@@ -3,6 +3,8 @@ This is the script to run a DHT22 temperature and humidity sensor with a Raspber
 
 Here, I am assuming that you have already attached the DHT22 to a Raspberry Pi sensor. See this [link](https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/) for a good tutorial on setting up the sensor. Also, the initial setup is from this tutorial, and the 'humidity_logger.py' script is a modified version of the script created by Emmet.
 
+For the date and time to update each time you change power sources, you will need access to wifi or add a real time clock to the Raspberry Pi. [This](https://pimylifeup.com/raspberry-pi-rtc/) is a good tutorial on how to do that.
+
 # Install programs
 1. Ensure that the latest updates have been installed on Raspberry Pi.
  ```
